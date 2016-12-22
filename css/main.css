@@ -17,6 +17,10 @@ html {
 }
 
 
+body {
+    background: black;
+}
+
 .container {
     background: black;
     height: 100%;
@@ -24,6 +28,23 @@ html {
     color: white;
 }
 
+.header-text {
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+.navbar {
+    background: black;
+    padding: 20px;
+}
+
+.navbar .navbar-button {
+    display: inline-block;
+    border: 1px solid #1d1d05;
+    margin: 0px 100px 0px 100px;
+    padding: 30px;
+    cursor: pointer;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
